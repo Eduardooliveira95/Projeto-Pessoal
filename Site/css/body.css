@@ -1,0 +1,6 @@
+body {
+    background: url(../img/background2.jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

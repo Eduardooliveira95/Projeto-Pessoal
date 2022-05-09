@@ -1,0 +1,9 @@
+:root {
+    /* --corcabecalho: linear-gradient(45deg, white, white,  transparent); */
+    --corcabecalho: #fff;
+    --corLetrasBranco: #fff;
+    --corBranca: #fff;
+    --corVermelha: red;
+    --corLinkcabecalho: black;
+    --linhacabecalhoBaixo: red;
+}
