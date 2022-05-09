@@ -9,7 +9,8 @@
     background: url(../img/banner2.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+    opacity: calc(85%);
 }
 
 .frase__efeito {
@@ -18,8 +19,5 @@
     width: 1000px;
     margin-top: 225px;
     margin-left: 80px;
-}
-
-.imagem__meio {
-    width: 500px;
+    opacity: calc(100%);
 }
