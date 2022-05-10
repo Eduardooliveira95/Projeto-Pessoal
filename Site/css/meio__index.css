@@ -2,22 +2,111 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1365.8px;
-    height: 500px;
+    /* width: 1398px; */
+    /* height: 500px; */
     background: var(--corBranca);
     /* box-shadow: 0px 0px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); */
+}
+
+.banner {
     background: url(../img/banner2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1348px;
+    height: 500px;
     opacity: calc(85%);
 }
 
 .frase__efeito {
-    color: var(--corBranca);
+    color: var(--corWhite);
     font-size: 80px;
     width: 1000px;
     margin-top: 225px;
-    margin-left: 80px;
+    margin-left: 245px;
     opacity: calc(100%);
+}
+
+.meio__imagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.cards__imagens1 {
+    width: 800px;
+    margin-top: 50px;
+    height: 600px;
+    background: url(../img/card1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); 
+}
+
+.cards__imagens2 {
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    background: url(../img/card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); 
+}
+
+.cards__imagens3 {
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    background: url(../img/card4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); 
+}
+
+.cards__imagens4 {
+    width: 800px;
+    height: 400px;
+    margin-top: 50px;
+    background: url(../img/card3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); 
+}
+
+.frase__efeito--corrida1 {
+    color: var(--corWhite);
+    font-size: 80px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 280px;
+}
+
+.frase__efeito--corrida2 {
+    color: var( --corWhite);
+    font-size: 80px;
+    width: 600px;
+    margin-left: 145px;
+    margin-top: 230px;
+}
+
+.frase__efeito--corrida3 {
+    color: var(--corWhite);
+    font-size: 80px;
+    width: 600px;
+    margin-left: 145px;
+    margin-top: 230px;
+}
+
+.frase__efeito--corrida4 {
+    color: var(--corWhite);
+    font-size: 70px;
+    width: 1000px;
+    margin-top: 80px;
 }
