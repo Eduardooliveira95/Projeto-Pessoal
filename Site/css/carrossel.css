@@ -28,15 +28,15 @@
 }
 
 .slider label {
-    /* background-color: #000; */
+    background-color: #000;
     bottom: -690px;
     cursor: pointer;
     display: block;
     height: 10px;
     position: relative;
     width: 10px;
-    z-index: 10;
 	font-size: 23px;
+    border-radius: 100%;
 }
 
 .slider li:nth-child(1) label {

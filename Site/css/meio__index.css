@@ -110,3 +110,27 @@
     width: 1000px;
     margin-top: 80px;
 } */
+
+
+.meio__história {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: var(--corWhite);
+    margin-top: 500px;
+    width: 900px;
+    padding: 50px 50px 20px 50px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border-radius: 50px;
+    background: #F5D953;
+    box-shadow: inset 30px -30px 60px #c4ae42,
+            inset -30px 30px 60px #ffff64;
+}
+
+.meio__texto {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
