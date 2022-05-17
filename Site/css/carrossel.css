@@ -28,7 +28,8 @@
 }
 
 .slider label {
-    background-color: #000;
+    /* background-color: #8098ae; */
+    background: var(--corWhite);
     bottom: -690px;
     cursor: pointer;
     display: block;
