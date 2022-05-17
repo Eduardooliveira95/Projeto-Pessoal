@@ -4,7 +4,7 @@
     /* align-items: center; */
     /* width: 1398px; */
     /* height: 500px; */
-    background: var(--corBranca);
+    background: var(--corWhite);
     /* box-shadow: 0px 0px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); */
     background: url(../img/background2.jpg);
     /* background-position: center;
@@ -17,9 +17,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1348px;
+    width: 1349 px;
     height: 500px;
-    opacity: calc(85%);
+    /* opacity: calc(85%); */
 }
 
 .frase__efeito {
@@ -122,10 +122,10 @@
     flex-wrap: wrap;
     background: var(--corWhite);
     margin-top: 500px;
-    width: 900px;
+    width: 800px;
     padding: 50px 50px 20px 50px;
     margin-bottom: 40px;
-    margin-left: 170px;
+    margin-left: 230px;
     border-radius: 15px;
     border-radius: 50px;
     background: #F5D953;
