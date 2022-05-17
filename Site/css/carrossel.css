@@ -66,8 +66,8 @@
     visibility: visible;
     z-index: 10;
 	border: 2px solid var(--corWhite);
-	/* border-radius: 50px;
-	background: linear-gradient(45deg, #e4f7ff, #c0d0da);
+	border-radius: 50px;
+	/* background: linear-gradient(45deg, #e4f7ff, #c0d0da);
 	box-shadow:  17px -17px 55px #7c868c,
              -17px 17px 55px #ffffff; */
 
@@ -76,10 +76,10 @@
 	box-shadow:  30px -30px 60px #8f9ba2,
              -30px 30px 60px #ffffff; */
 
-			 border-radius: 50px;
+			 /* border-radius: 50px;
 			 background: linear-gradient(45deg, #abcbe8, #90abc3);
 			 box-shadow:  30px -30px 60px #8098ae,
-						  -30px 30px 60px #c0e4ff;
+						  -30px 30px 60px #c0e4ff; */
 
 } 
 
