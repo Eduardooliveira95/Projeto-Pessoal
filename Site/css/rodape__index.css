@@ -1,0 +1,14 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    width: 1349px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.rodape__logo {
+    width: 150px;
+    height: 95px;
+}
