@@ -1,11 +1,15 @@
 :root {
+    --fonte: font-family: 'Ubuntu', sans-serif;
     /* --corcabecalho: linear-gradient(45deg, white, white,  transparent); */
     --corcabecalho: #fff;
     --corLetrasBranco: #fff;
     --corBranca: #fff;
     --corVermelha: red;
+    --corTomVermelho:#F21313;
     --corWhite: #F5D953;
     --corTomVermelho: #F24B4B;
     --corLinkcabecalho: black;
     --linhacabecalhoBaixo: #F21313;
+    --corMeio: #F5D953;
+    --corBolinhaCarrossel: #494324;
 }

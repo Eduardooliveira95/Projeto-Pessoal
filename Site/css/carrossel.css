@@ -29,7 +29,7 @@
 
 .slider label {
     /* background-color: #8098ae; */
-    background: var(--corWhite);
+    background: var(--corBolinhaCarrossel);
     bottom: -690px;
     cursor: pointer;
     display: block;
@@ -65,7 +65,7 @@
     opacity: 1;
     visibility: visible;
     z-index: 10;
-	border: 2px solid var(--corWhite);
+	border: 3px solid var(--corTomVermelho);
 	border-radius: 50px;
 	/* background: linear-gradient(45deg, #e4f7ff, #c0d0da);
 	box-shadow:  17px -17px 55px #7c868c,
