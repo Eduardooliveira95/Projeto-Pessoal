@@ -12,6 +12,20 @@
     background-size: cover; */
 }
 
+.botao__voltar--topo {
+    color: var(--corBranca);
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    right: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    background: #04C4D9;
+    box-shadow: inset 20px 20px 55px #037d8b,
+            inset -20px -20px 55px #05ffff;
+}
+
 .frase__efeito {
     color: var(--corWhite);
     font-size: 80px;
