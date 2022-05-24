@@ -1,85 +1,34 @@
-
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-top: 40px;
-    position: relative;
+#items-wrapper {
+    display: flex; 
+    width: 45vw;
+    height: 80vh;
+    margin-left: 28%;
+    margin-top: 5%;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffe859, #ddc34b);
+    box-shadow:  50px 50px 100px #9d8b35,
+             -50px -50px 100px #ffff71;
 }
 
-.slider li {
-    list-style: none;
-    position: absolute;
-	width: 800px;
-	height: 650px;
+#items {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
-.slider img {
-    margin: auto;
-    height: 100%;
+.item {
+    flex: none;
     width: 100%;
-    vertical-align: top;
-	margin-left: -100px;
+    height: 535px;
+    scroll-snap-align: start;
+    pointer-events: none;
+    border-radius: 20px;
 }
 
-.slider input {
-    display: none;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
-
-.slider label {
-    /* background-color: #8098ae; */
-    background: var(--corBolinhaCarrossel);
-    bottom: -690px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: relative;
-    width: 10px;
-	font-size: 23px;
-    border-radius: 100%;
-}
-
-.slider li:nth-child(1) label {
-    left: 270px;
-}
-
-.slider li:nth-child(2) label {
-    left: 300px;
-}
-
-.slider li:nth-child(3) label {
-    left: 330px;
-}
-
-.slider li:nth-child(4) label {
-    left: 360px;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-	border: 3px solid var(--corTomVermelho);
-	border-radius: 50px;
-	/* background: linear-gradient(45deg, #e4f7ff, #c0d0da);
-	box-shadow:  17px -17px 55px #7c868c,
-             -17px 17px 55px #ffffff; */
-
-	/* border-radius: 50px;
-	background: linear-gradient(45deg, #e4f7ff, #c0d0da);
-	box-shadow:  30px -30px 60px #8f9ba2,
-             -30px 30px 60px #ffffff; */
-
-			 /* border-radius: 50px;
-			 background: linear-gradient(45deg, #abcbe8, #90abc3);
-			 box-shadow:  30px -30px 60px #8098ae,
-						  -30px 30px 60px #c0e4ff; */
-
-} 
-

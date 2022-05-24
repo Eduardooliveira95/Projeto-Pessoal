@@ -23,7 +23,6 @@ a { color: inherit; text-decoration: none;}
 .cabecalho__logo {
     width: 150px;
     height: 95px;
-    border-radius: 100%;
 }
 
 .cabecalho__letras {
