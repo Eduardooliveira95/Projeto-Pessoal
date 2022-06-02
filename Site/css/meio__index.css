@@ -41,12 +41,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     background: var(--corWhite);
-    text-align: center;
+    /* text-align: center; */
     margin-top: 200px;
-    width: 700px;
+    width: 800px;
     padding: 50px 50px 20px 50px;
     margin-bottom: 40px;
-    margin-left: 285px;
+    margin-left: 225px;
     border-radius: 15px;
     border-radius: 50px;
     background: #F5D953;
@@ -57,11 +57,69 @@
 .meio__titulo {
     font-size: 35px;
     margin-bottom: 30px;
-    margin-left: 33%;
+    margin-left: 38.5%;
 }
 
 .meio__texto {
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.meio__cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.meio__imagem--fundo--cadastro {
+    width: 800px;
+    height: 600px;
+    background: url(../img/card5.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio__cadastro--input {
+    display: flex;
+    flex-direction: column;
+    background: #a666419f;
+    padding: 3%;
+    border-radius: 10%;
+}
+
+.titulo__input--meio {
+    font-size: 22px;
+    color: var(--corBranca);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.inputs__cadastro--meio {
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.botao__cadastro--meio {
+    font-size: 20px;
+    width: 60px;
+    background: transparent;
+    border: none;
+    color: var(--corBranca);
+    margin-top: 20px;
+    margin-left: 68px;
+    transition: 1s;
+}
+
+.botao__cadastro--meio:hover {
+    background: var(--corWhite);
+    width: 110px;
+    font-size: 22px;
+    border-radius: 10px;
 }
 
