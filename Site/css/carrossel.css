@@ -20,7 +20,7 @@
 .item {
     flex: none;
     width: 100%;
-    height: 535px;
+    height: 485px;
     scroll-snap-align: start;
     pointer-events: none;
     border-radius: 20px;
@@ -31,4 +31,36 @@ img {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+.frase__efeito--corrida1 {
+    font-size: 50px;
+    background: transparent;
+    margin-top: -470px;
+    margin-left: 100px;
+    color: var(--corAzulescuro);
+}
+
+.frase__efeito--corrida2 {
+    font-size: 50px;
+    background: transparent;
+    margin-top: -470px;
+    margin-left: 130px;
+    color: var(--corAzulescuro);
+}
+
+.frase__efeito--corrida3 {
+    font-size: 50px;
+    background: transparent;
+    margin-top: -270px;
+    margin-left: 100px;
+    color: var(--corAzulescuro);
+}
+
+.frase__efeito--corrida4 {
+    font-size: 50px;
+    background: transparent;
+    margin-top: -270px;
+    margin-left: 100px;
+    color: var(--corAzulescuro);
 }
