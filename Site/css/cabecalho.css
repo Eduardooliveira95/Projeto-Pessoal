@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     border-bottom: 3px solid var(--linhacabecalhoBaixo);
-    height: 600px;
+    height: 555px;
     background: url(../img/banner2.png);
     background-position: center;
     background-repeat: no-repeat;
