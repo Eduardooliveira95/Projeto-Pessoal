@@ -1,19 +1,24 @@
 .cabecalho {
     display: flex;
     flex-direction: row;
-    border-bottom: 3px solid var(--linhacabecalhoBaixo);
+    border-bottom: 3px solid var(--corVerm);
     height: 555px;
-    background: url(../img/banner4.png);
+    background:  url(../img/bannerOficial.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 1s;
+    transition: all 1s ease;
 }
+
+/* *::selection {
+    background: #101010;
+    color: var(--corBranca);
+} */
 
 .cabecalho__links {
     display: flex;
     flex-direction: row;
-    color: var(--corLinkcabecalho);
+    color: var(--corBranca);
     width: 1366px;
     height: 180px;
     justify-content: space-evenly;

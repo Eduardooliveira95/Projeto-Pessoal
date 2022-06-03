@@ -27,13 +27,14 @@
 }
 
 .frase__efeito {
-    color: var(--corAzulescuroCarrossel);
+    color: var(--corBranca);
     font-size: 80px;
     width: 1000px;
     /* margin-top: 225px; */
     margin-left: 225px;
     margin-top: -345px;
     opacity: calc(100%);
+    filter: drop-shadow(0 0 20px var(--corLinkcabecalho));
 }
 
 .meio__história {
@@ -86,11 +87,20 @@
 }
 
 .meio__cadastro--input {
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     background: #a666419f;
-    padding: 3%;
+    /* padding: 6%; */
     border-radius: 10%;
+    justify-content: center;
+}
+
+.titulo__meio {
+    font-size: 22px;
+    /* z-index: 99; */
+    color: var(--corWhite);
 }
 
 .titulo__input--meio {
