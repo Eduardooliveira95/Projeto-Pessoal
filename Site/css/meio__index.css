@@ -27,7 +27,7 @@
 }
 
 .frase__efeito {
-    color: var(--corWhite);
+    color: var(--corAzulescuroCarrossel);
     font-size: 80px;
     width: 1000px;
     /* margin-top: 225px; */
@@ -112,7 +112,7 @@
     border: none;
     color: var(--corBranca);
     margin-top: 20px;
-    margin-left: 68px;
+    margin-left: 53px;
     transition: 1s;
 }
 

@@ -58,9 +58,9 @@ img {
 }
 
 .frase__efeito--corrida4 {
-    font-size: 50px;
+    font-size: 40px;
     background: transparent;
-    margin-top: -270px;
-    margin-left: 100px;
+    margin-top: -470px;
+    margin-left: 45px;
     color: var(--corAzulescuro);
 }
