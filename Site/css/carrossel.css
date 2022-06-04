@@ -4,10 +4,6 @@
     height: 80vh;
     margin-left: 28%;
     margin-top: 5%;
-    border-radius: 20px;
-    background: linear-gradient(145deg, #ffe859, #ddc34b);
-    box-shadow:  50px 50px 100px #9d8b35,
-             -50px -50px 100px #ffff71;
 }
 
 #items {
@@ -38,7 +34,7 @@ img {
     background: transparent;
     margin-top: -470px;
     margin-left: 100px;
-    color: var(--corAzulescuro);
+    color: var( --corVerm3);
 }
 
 .frase__efeito--corrida2 {
@@ -46,7 +42,7 @@ img {
     background: transparent;
     margin-top: -470px;
     margin-left: 130px;
-    color: var(--corAzulescuro);
+    color: var( --corVerm3);
 }
 
 .frase__efeito--corrida3 {
@@ -54,7 +50,7 @@ img {
     background: transparent;
     margin-top: -270px;
     margin-left: 100px;
-    color: var(--corAzulescuro);
+    color: var( --corVerm3);
 }
 
 .frase__efeito--corrida4 {
@@ -62,5 +58,5 @@ img {
     background: transparent;
     margin-top: -470px;
     margin-left: 45px;
-    color: var(--corAzulescuro);
+    color: var( --corVerm3);
 }

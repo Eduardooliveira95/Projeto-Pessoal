@@ -4,7 +4,7 @@
     /* align-items: center; */
     /* width: 1398px; */
     /* height: 500px; */
-    background: linear-gradient(var(--corMeio), var(--corBranca));
+    background: linear-gradient(var(--corPreta), var(--corCinza2), var(--corBranca));
     /* box-shadow: 0px 0px 10px var(--corVermelha), 3px 3px 10px var(--corVermelha); */
     /* background: url(../img/background2.jpg); */
     /* background-position: center;
@@ -20,10 +20,10 @@
     right: 50px;
     font-size: 20px;
     border: none;
-    border-radius: 50px;
-    background: #04C4D9;
-    box-shadow: inset 20px 20px 55px #037d8b,
-            inset -20px -20px 55px #05ffff;
+    border-radius: 20px;
+    background: #8C0327;
+    box-shadow: inset -13px -13px 26px #380110,
+            inset 13px 13px 26px #e0053e;
 }
 
 .frase__efeito {
@@ -41,29 +41,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: var(--corWhite);
+    background: var(--corCinza2);
     /* text-align: center; */
     margin-top: 200px;
     width: 800px;
     padding: 50px 50px 20px 50px;
     margin-bottom: 40px;
     margin-left: 225px;
-    border-radius: 15px;
-    border-radius: 50px;
-    background: #F5D953;
-    box-shadow: inset 30px -30px 60px #c4ae42,
-            inset -30px 30px 60px #ffff64;
+    border-radius: 30px;
+    background: #403939;
+    box-shadow: inset -12px -12px 24px #2c2727,
+            inset 12px 12px 24px #544b4b;
 }
 
 .meio__titulo {
     font-size: 35px;
     margin-bottom: 30px;
-    margin-left: 38.5%;
+    margin-left: 36.5%;
+    color: #e0053e;
+    font-weight: bold;
+    opacity: calc(100%);
+    filter: drop-shadow(12px 10px 5px var(--corLinkcabecalho));
 }
 
 .meio__texto {
     font-size: 23px;
     line-height: 1.3;
+    color: var(--corBranca2);
 }
 
 .meio__cadastro {
@@ -75,7 +79,7 @@
 .meio__imagem--fundo--cadastro {
     width: 800px;
     height: 600px;
-    background: url(../img/card5.png);
+    background: url(../img/banner4.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,16 +95,20 @@
     height: 200px;
     display: flex;
     flex-direction: column;
-    background: #a666419f;
-    /* padding: 6%; */
+    background: var(--corVerm2);
     border-radius: 10%;
     justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.meio__cadastro--input:hover {
+    padding: 8%;
 }
 
 .titulo__meio {
-    font-size: 22px;
-    /* z-index: 99; */
-    color: var(--corWhite);
+    font-size: 35px;
+    color: var(--corBranca);
 }
 
 .titulo__input--meio {
@@ -111,25 +119,40 @@
 }
 
 .inputs__cadastro--meio {
-    font-size: 15px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .botao__cadastro--meio {
+    font-size: 20px;
+    width: 110px;
+    background: transparent;
+    border: none;
+    color: var(--corBranca);
+    margin-top: 20px;
+    /* margin-left: 46px; */
+    transition: 1s;
+}
+
+.botao__login--meio {
     font-size: 20px;
     width: 60px;
     background: transparent;
     border: none;
     color: var(--corBranca);
     margin-top: 20px;
-    margin-left: 53px;
+    /* margin-left: 46px; */
     transition: 1s;
 }
 
 .botao__cadastro--meio:hover {
+    background: #f7d21e;
+    /* width: 110px;
+    /* font-size: 22px; */
+    border-radius: 10px;
+}
+
+.botao__login--meio:hover {
     background: var(--corWhite);
-    width: 110px;
-    font-size: 22px;
     border-radius: 10px;
 }
 

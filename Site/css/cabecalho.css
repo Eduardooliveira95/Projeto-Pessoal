@@ -41,12 +41,12 @@ a { color: inherit; text-decoration: none;}
     height: 2px;
     --webkit-transition: width: 0.8s;
     transition: width 0.8s;
-    background: var(--corAzulescuro);
-    color: var(--corAzulescuro);
+    background: var(--corVerm);
+    color: var(--corVerm);
 }
 
 a:hover .barra__cabecalho {
-    background: var(--corAzulescuro);
+    background: var(--corVerm);
     width: 100%;
     height: 2px;
     --webkit-transition: width: 0.8s;
