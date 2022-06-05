@@ -65,6 +65,9 @@ function cadastrar(req, res) {
     var nome = req.body.nomeServer;
     var email = req.body.emailServer;
     var senha = req.body.senhaServer;
+    // var pista = req.body.pistaServer;
+    // var motor = req.body.motorServer;
+    // var chassi = req.body.chassiServer;
 
     // Faça as validações dos valores
     if (nome == undefined) {

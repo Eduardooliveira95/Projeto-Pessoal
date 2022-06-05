@@ -1,0 +1,30 @@
+:root {
+    --fonte: font-family: 'Ubuntu', sans-serif;
+    /* --corcabecalho: linear-gradient(45deg, white, white,  transparent); */
+    --corcabecalho: #fff;
+    --corLetrasBranco: #fdfdfd;
+    --corBranca: #fff;
+    --corVermelha: red;
+    --corTomVermelho:#F21313;
+    --corWhite: #F5D953;
+    --corTomVermelho: #F24B4B;
+    --corAzulescuro: #04C4D9;
+    --corLinkcabecalho: #101010;
+    --linhacabecalhoBaixo: #F27405;
+    --corMeio: #F5D953;
+    --corBolinhaCarrossel: #494324;
+    --corAzulescuroCarrossel: #00626d;
+
+    /* ------------------------CORES NOVAS----------------------- */
+
+
+    --corVerm: #BF0426;
+    --corVerm2: #8C0327;
+    --corVerm3: #8c0327ce;
+    --corCinza: #BFBFBF;
+    --corPreta: #262222;
+    --corCinza2: #403939;
+    --corCinza3: #4C4C59;
+    --corCinza4: #949BA6;
+    --corBranca2: #C7D7D9;
+}

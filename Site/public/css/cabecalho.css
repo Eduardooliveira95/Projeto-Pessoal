@@ -1,0 +1,55 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid var(--corVerm);
+    height: 555px;
+    background:  url(../assets/imgs/bannerOficial.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease;
+}
+
+/* *::selection {
+    background: #101010;
+    color: var(--corBranca);
+} */
+
+.cabecalho__links {
+    display: flex;
+    flex-direction: row;
+    color: var(--corBranca);
+    width: 1366px;
+    height: 180px;
+    justify-content: space-evenly;
+}
+
+a { color: inherit; text-decoration: none;} 
+
+.cabecalho__logo {
+    width: 150px;
+    height: 95px;
+}
+
+.cabecalho__letras {
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.barra__cabecalho {
+    width: 0%;
+    height: 2px;
+    --webkit-transition: width: 0.8s;
+    transition: width 0.8s;
+    background: var(--corVerm);
+    color: var(--corVerm);
+}
+
+a:hover .barra__cabecalho {
+    background: var(--corVerm);
+    width: 100%;
+    height: 2px;
+    --webkit-transition: width: 0.8s;
+    transition: width 0.8s;
+}
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word | Kart</title>
+    <link rel="stylesheet" href="../Site/css/reset.css">
+    <link rel="icon" href="../img/logo__kart4.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Site/css/body.css">
+    <link rel="stylesheet" href="../Site/css/root__index.css">
+    <link rel="stylesheet" href="../Site/css/cabecalho.css">
+    <link rel="stylesheet" href="../Site/css/meio__index.css">
+    <link rel="stylesheet" href="../Site/css/carrossel.css">
+    <link rel="stylesheet" href="../Site/css/rodape__index.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <ul class="cabecalho__links">
+            <img src="../Site/img/logo__kart4.svg" alt="" class="cabecalho__logo">
+            <li class="cabecalho__letras"><a href="#">Início
+                <section class="barra__cabecalho"></section></a>
+            </li>
+            <li class="cabecalho__letras"><a href="#meioTitulo">História
+                <section class="barra__cabecalho"></section></a>
+            </li>
+            <li class="cabecalho__letras"><a href="#cadastro">Cadastro | Login
+                <section class="barra__cabecalho"></section></a>
+            </li>
+            <li class="cabecalho__letras"><a href="#">Votação
+                <section class="barra__cabecalho"></section></a>
+            </li>
+        </ul>
+    </header>
+    <main class="meio">
+        <section class="banner">
+            <p class="frase__efeito">Não é apenas uma corrida...</p>
+        </section>
+        <button id="voltarAoTopo" class="botao__voltar--topo">Voltar ao topo</button>
+        <div id="items-wrapper">
+            <div id="items">
+                <div class="item"><img src="../Site/img/card1.png" alt="">
+                    <p class="frase__efeito--corrida1">Momentos difíceis</p>
+                </div>
+                <div class="item"><img src="../Site/img/card2.png" alt="">
+                    <p class="frase__efeito--corrida2">Treinos intensos</p>
+                </div>
+                <div class="item"><img src="../Site/img/banner7.png" alt="">
+                    <p class="frase__efeito--corrida3">Batalhas Arduas</p>
+                </div>
+                <div class="item"><img src="../Site/img/banner6.png" alt="">
+                    <p class="frase__efeito--corrida4">Uma conquista inesquecível</p>
+                </div>
+            </div>
+        </div>
+        <section class="meio__história">
+            <h1 class="meio__titulo" id="meioTitulo">História do Kart</h1>
+            <p class="meio__texto"> O kart surgiu em meados dos anos 50 após a Segunda Guerra mundial nos Estados Unidos. 
+                Pilotos de aviões estavam cansados de fazer as mesmas coisas todos os dias e então 
+                por isso decidiram criar uma atividade diferente para os momentos de folga.
+                <p class="meio__texto">Art Ingels, também chamado de  “Pai do Kart”, os primeiros carros de corrida 
+                Kurt Kraft com motores de aparadores de grama, e seu amigo Lou Borelli, não saiu do seu lado, 
+                o ajudando em tudo o que era necessário.</p> 
+                <p class="meio__texto">Como o kart era visto somente como um “brinquedo”, então Duffy Livingstone que era próximo
+                a Art e Lou, teve a idéia de construir mais dois carros, um para ele e um para outro amigo. 
+                Os quatro começaram a se encontrar e fazer pequenas competições entre eles, e foi assim 
+                que tudo começou.</p>         
+                <p class="meio__texto">Durante um bom tempo, o brinquedo era visto somente como algo amador e bem caseiro, 
+                geralmente eram construídos por seus próprios donos e pilotos. Parece até engraçado, 
+                mas naquela época, era bem comum a venda de kits munidos de instruções e ferramentas 
+                para que o piloto pudesse construir seu próprio carro de kart.</p>  
+                <p class="meio__texto">Depois de algum tempo, o espírito competitivo acertou a todos, a maioria dos homens queria 
+                ter carro para competir, independente de sua idade. Foi por esse motivo que após essa década, 
+                surgiram os primeiros fabricantes de kart.</p>                 
+                <p class="meio__texto">Foi no kart que muitos grandes pilotos da Fórmula 1 começaram sua jornada, 
+                como o Michael Schumacher, Nelson Piquet e o incrível Ayrton Senna. </p>
+                <p class="meio__texto">Como a idade mínima para praticar kart é somente 6 anos, muitos pilotos começam e se 
+                    apaixonam ainda pequenos por tudo o que envolve adrenalina e velocidade.<br><br>Fontes: https://sidspecialstore.com.br/historia-do-kart-e-suas-maiores-curiosidades/</p></p>
+        </section>
+
+        <section class="meio__cadastro" id="cadastro">
+            <section class="meio__imagem--fundo--cadastro">
+                <!-- <img src="../Site/img/card5.png" alt=""> -->
+                <section class="meio__cadastro--input" id="menu__meio">
+                    <p class="titulo__meio">Menu</p>
+                    <button onclick="cadastrar()" class="botao__cadastro--meio">Cadastrar</button>
+                    <button onclick="login()" class="botao__cadastro--meio">Logar</button>
+                    <button onclick="voltar()" class="botao__login--meio" id="botao__voltar">Voltar</button>
+                </section>
+                <section class="meio__cadastro--input" id="cadastro__meio" style="display: none;">
+                    <p class="titulo__input--meio">Nome Completo:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <p  class="titulo__input--meio">Email:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <p  class="titulo__input--meio">Senha:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <button class="botao__cadastro--meio">Cadastrar</button>
+                    <button onclick="voltar()" class="botao__cadastro--meio">Voltar</button>
+                </section>
+                <section class="meio__cadastro--input" id="login__meio" style="display: none;">
+                    <p  class="titulo__input--meio">Email:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <p  class="titulo__input--meio">Senha:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <button class="botao__cadastro--meio">Logar</button>
+                    <button onclick="voltar()" class="botao__cadastro--meio">Voltar</button>
+                </section>
+            </section>
+        </section>
+        <section>
+            <p>Votação</p>
+            <section>
+                <p>Qual Chassi você mais gosta ?</p>
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <p>Qual motor você mais gosta ?</p>
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <p>Qual destas pistas você mais gosta ?</p>
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+                <img src="" alt="">
+                <input type="checkbox" name="" id="">
+            </section>
+        </section>
+    </main>
+    <footer class="rodape">
+        <img src="../Site/img/logo__kart4.svg" alt="" class="rodape__logo">
+        <p>Eduardo</p>
+        <p>@copy São Paulo Tech School 2022</p>
+    </footer>
+    <script src="../Site/js/botoes.js"></script>
+    <script src="../Site/js/carrossel.js"></script>
+</body>
+</html>

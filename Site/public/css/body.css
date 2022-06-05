@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    transition: 0.9s;
+    /* scroll-margin-top: initial; */
+}
+
+:target {
+    scroll-margin-top: .8em;
+  }
+
+body {
+    background: var(--corBranca);
+    font-family: 'Ubuntu', sans-serif;
+}

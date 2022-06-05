@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!-- <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,8 +21,6 @@
 </head>
 
 <body>
-
-    <!--header inicio-->
     <div class="header">
         <div class="container">
             <h1 class="titulo">AcquaTec</h1>
@@ -45,9 +43,6 @@
             </ul>
         </div>
     </div>
-    <!--header fim-->
-
-
     <div class="banner ">
         <div class="alerta_erro">
             <div class="card_erro" id="cardErro">
@@ -58,12 +53,6 @@
             <div class="card medio">
                 <h2>Bem-vindo!</h2>
                 <div class="formulario">
-
-                    <!--
-                         Para inserir mais um campo, copie uma das inputs abaixo.
-                         Assim que inserir vá para o script abaixo.
-                     -->
-
                     <span class="tipo_campo">Nome:</span>
                     <input id="nome_input" type="text" placeholder="Seu nome">
 
@@ -89,40 +78,203 @@
             </div>
         </div>
     </div>
-
-    <!--footer inicio-->
     <div class="footer">
         <div class="container">
             <h4>Feito com amor por um aluno &hearts;SPTech &copy; 2022</h4>
         </div>
     </div>
-    <!--footer fim-->
-
-
 </body>
+-->
 
-</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word | Kart</title>
+    <script src="./js/funcoes.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="icon" href="../img/logo__kart4.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/root__index.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/meio__index.css">
+    <link rel="stylesheet" href="./css/carrossel.css">
+    <link rel="stylesheet" href="./css/rodape__index.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <ul class="cabecalho__links">
+            <img src="./assets/imgs/logo__kart4.svg" alt="" class="cabecalho__logo">
+            <li class="cabecalho__letras"><a href="#">Início
+                <section class="barra__cabecalho"></section></a>
+            </li>
+            <li class="cabecalho__letras"><a href="#meioTitulo">História
+                <section class="barra__cabecalho"></section></a>
+            </li>
+            <li class="cabecalho__letras"><a href="#cadastro">Cadastro | Login
+                <section class="barra__cabecalho"></section></a>
+            </li>
+            <li class="cabecalho__letras"><a href="#">Votação
+                <section class="barra__cabecalho"></section></a>
+            </li>
+        </ul>
+    </header>
+    <main class="meio">
+        <section class="banner">
+            <p class="frase__efeito">Não é apenas uma corrida...</p>
+        </section>
+        <button id="voltarAoTopo" class="botao__voltar--topo">Voltar ao topo</button>
+        <div id="items-wrapper">
+            <div id="items">
+                <div class="item"><img src="./assets/imgs/card1.png" alt="">
+                    <p class="frase__efeito--corrida1">Momentos difíceis</p>
+                </div>
+                <div class="item"><img src="./assets/imgs/card2.png" alt="">
+                    <p class="frase__efeito--corrida2">Treinos intensos</p>
+                </div>
+                <div class="item"><img src="./assets/imgs/banner7.png" alt="">
+                    <p class="frase__efeito--corrida3">Batalhas Arduas</p>
+                </div>
+                <div class="item"><img src="./assets/imgs/banner6.png" alt="">
+                    <p class="frase__efeito--corrida4">Uma conquista inesquecível</p>
+                </div>
+            </div>
+        </div>
+        <section class="meio__história">
+            <h1 class="meio__titulo" id="meioTitulo">História do Kart</h1>
+            <p class="meio__texto"> O kart surgiu em meados dos anos 50 após a Segunda Guerra mundial nos Estados Unidos. 
+                Pilotos de aviões estavam cansados de fazer as mesmas coisas todos os dias e então 
+                por isso decidiram criar uma atividade diferente para os momentos de folga.
+                <p class="meio__texto">Art Ingels, também chamado de  “Pai do Kart”, os primeiros carros de corrida 
+                Kurt Kraft com motores de aparadores de grama, e seu amigo Lou Borelli, não saiu do seu lado, 
+                o ajudando em tudo o que era necessário.</p> 
+                <p class="meio__texto">Como o kart era visto somente como um “brinquedo”, então Duffy Livingstone que era próximo
+                a Art e Lou, teve a idéia de construir mais dois carros, um para ele e um para outro amigo. 
+                Os quatro começaram a se encontrar e fazer pequenas competições entre eles, e foi assim 
+                que tudo começou.</p>         
+                <p class="meio__texto">Durante um bom tempo, o brinquedo era visto somente como algo amador e bem caseiro, 
+                geralmente eram construídos por seus próprios donos e pilotos. Parece até engraçado, 
+                mas naquela época, era bem comum a venda de kits munidos de instruções e ferramentas 
+                para que o piloto pudesse construir seu próprio carro de kart.</p>  
+                <p class="meio__texto">Depois de algum tempo, o espírito competitivo acertou a todos, a maioria dos homens queria 
+                ter carro para competir, independente de sua idade. Foi por esse motivo que após essa década, 
+                surgiram os primeiros fabricantes de kart.</p>                 
+                <p class="meio__texto">Foi no kart que muitos grandes pilotos da Fórmula 1 começaram sua jornada, 
+                como o Michael Schumacher, Nelson Piquet e o incrível Ayrton Senna. </p>
+                <p class="meio__texto">Como a idade mínima para praticar kart é somente 6 anos, muitos pilotos começam e se 
+                    apaixonam ainda pequenos por tudo o que envolve adrenalina e velocidade.<br><br>Fontes: https://sidspecialstore.com.br/historia-do-kart-e-suas-maiores-curiosidades/</p></p>
+        </section>
+        <section class="meio__cadastro" id="cadastro">
+            <section class="meio__imagem--fundo--cadastro">
+                <section class="meio__cadastro--input" id="menu__meio">
+                    <p class="titulo__meio">Menu</p>
+                    <button onclick="cadastrar1()" class="botao__cadastro--meio">Cadastrar</button>
+                    <!-- <button onclick="login()" class="botao__cadastro--meio">Logar</button> -->
+                    <button onclick="voltar()" class="botao__login--meio" id="botao__voltar">Voltar</button>
+                </section>
+                <section class="meio__cadastro--input" id="cadastro__meioo" style="display: none;">
+                    <p class="titulo__input--meio">Nome:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="nome_input">
+                    <p  class="titulo__input--meio">Email:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="email_input">
+                    <p  class="titulo__input--meio">Senha:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="senha_input">
+                    <p  class="titulo__input--meio">Pista:</p>
+                    <!-- <input class="inputs__cadastro--meio" type="text" id="pista_input"> -->
+                    <p  class="titulo__input--meio">Motor:</p>
+                    <!-- <input class="inputs__cadastro--meio" type="text" id="motor_input"> -->
+                    <p  class="titulo__input--meio">Chassi:</p>
+                    <!-- <input class="inputs__cadastro--meio" type="text" id="chassi_input"> -->
+                    <button class="botao__cadastro--meio" onclick="cadastrar()">Cadastrar</button>
+                    <button onclick="voltar()" class="botao__cadastro--meio">Voltar</button>
+                </section>
+                <section class="meio__cadastro--input" id="login__meio" style="display: none;">
+                    <p  class="titulo__input--meio">Email:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <p  class="titulo__input--meio">Senha:</p>
+                    <input class="inputs__cadastro--meio" type="text" id="">
+                    <button class="botao__cadastro--meio">Logar</button>
+                    <button onclick="voltar()" class="botao__cadastro--meio">Voltar</button>
+                </section>
+            </section>
+        </section>
+        <section class="resultado">
+            <p class="titulo__resultado">Resultado da Pesquisa</p>
+            <section class="meio__resultado">
+
+                <p class="subTitulo__resultado">Qual Chassi você mais gosta ?</p>
+                <section class="sec__chassi">
+                    <img src="./assets/imgs/crg.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                    <img src="./assets/imgs/tonyKart.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                    <img src="./assets/imgs/techspeed.jpg.opdownload" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                </section>
+
+                <p class="subTitulo__resultado">Qual motor você mais gosta ?</p>
+                <section class="sec__motor">
+                    <img src="./assets/imgs/iame.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                    <img src="./assets/imgs/tmKz10.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                    <img src="./assets/imgs/rotaxKart.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                </section>
+
+                <p class="subTitulo__resultado">Qual destas pistas você mais gosta ?</p>
+                <section class="sec__pista">
+                    <img src="./assets/imgs/aldeiaDaSerra.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                    <img src="./assets/imgs/interlagos.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                    <img src="./assets/imgs/granjaViana.jpg" alt="" class="img__resultado">
+                    <input type="checkbox" name="" id="">
+                </section>
+
+               
+            </section>
+        </section>
+    </main>
+    <footer class="rodape">
+        <img src="./assets/imgs/logo__kart4.svg" alt="" class="rodape__logo">
+        <p>Eduardo</p>
+        <p>@copy São Paulo Tech School 2022</p>
+    </footer>
+    <script src="./js/botoes.js"></script>
+    <script src="./js/carrossel.js"></script>
+
+
+
+</html> 
 
 <script>
     function cadastrar() {
-        aguardar();
+        // aguardar();
 
         //Recupere o valor da nova input pelo nome do id
         // Agora vá para o método fetch logo abaixo
         var nomeVar = nome_input.value;
         var emailVar = email_input.value;
         var senhaVar = senha_input.value;
-        var confirmacaoSenhaVar = confirmacao_senha_input.value;
+        // var pistaVar = pista_input.value;
+        // var motorVar = motor_input.value;
+        // var chassiVar = chassi_input.value;
+        // var confirmacaoSenhaVar = confirmacao_senha_input.value;
 
-        if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
-            cardErro.style.display = "block"
-            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+        if (nomeVar == "" || emailVar == "" || senhaVar == "") {
+            // cardErro.style.display = "block"
+            // mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
 
             finalizarAguardar();
             return false;
         }
         else {
-            setInterval(sumirMensagem, 5000)
+            // setInterval(sumirMensagem, 5000)
         }
 
         // Enviando o valor da nova input
@@ -136,7 +288,10 @@
                 // Agora vá para o arquivo routes/usuario.js
                 nomeServer: nomeVar,
                 emailServer: emailVar,
-                senhaServer: senhaVar
+                senhaServer: senhaVar,
+                // pistaServer: pistaVar,
+                // motorServer: motorVar,
+                // chassiServer: chassiVar
             })
         }).then(function (resposta) {
 
@@ -158,14 +313,89 @@
             }
         }).catch(function (resposta) {
             console.log(`#ERRO: ${resposta}`);
-            finalizarAguardar();
+            finalizarAguardar();    
         });
 
         return false;
     }
 
-    function sumirMensagem() {
-        cardErro.style.display = "none"
+    // function sumirMensagem() {
+    //     cardErro.style.display = "none"
+    // }
+
+</script>
+
+
+<script>
+
+
+    function entrar() {
+        aguardar();
+
+        var emailVar = email_input.value;
+        var senhaVar = senha_input.value;
+
+        if (emailVar == "" || senhaVar == "") {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+            finalizarAguardar();
+            return false;
+        }
+        else {
+            setInterval(sumirMensagem, 5000)
+        }
+
+        console.log("FORM LOGIN: ", emailVar);
+        console.log("FORM SENHA: ", senhaVar);
+
+        fetch("/usuarios/autenticar", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                emailServer: emailVar,
+                senhaServer: senhaVar
+            })
+        }).then(function (resposta) {
+            console.log("ESTOU NO THEN DO entrar()!")
+
+            if (resposta.ok) {
+                console.log(resposta);
+
+                resposta.json().then(json => {
+                    console.log(json);
+                    console.log(JSON.stringify(json));
+
+                    sessionStorage.EMAIL_USUARIO = json.email;
+                    sessionStorage.NOME_USUARIO = json.nome;
+                    sessionStorage.ID_USUARIO = json.id;
+
+                    setTimeout(function () {
+                        window.location = "./dashboard/cards.html";
+                    }, 1000); // apenas para exibir o loading
+
+                });
+
+            } else {
+
+                console.log("Houve um erro ao tentar realizar o login!");
+
+                resposta.text().then(texto => {
+                    console.error(texto);
+                    finalizarAguardar(texto);
+                });
+            }
+
+        }).catch(function (erro) {
+            console.log(erro);
+        })
+
+        return false;
     }
+
+    // function sumirMensagem() {
+    //     cardErro.style.display = "none"
+    // }
 
 </script>
