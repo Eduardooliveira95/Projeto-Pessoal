@@ -34,7 +34,7 @@ img {
     background: transparent;
     margin-top: -470px;
     margin-left: 100px;
-    color: var( --corVerm3);
+    color: var( --corVerm);
 }
 
 .frase__efeito--corrida2 {
@@ -42,15 +42,15 @@ img {
     background: transparent;
     margin-top: -470px;
     margin-left: 130px;
-    color: var( --corVerm3);
+    color: var( --corVerm);
 }
 
 .frase__efeito--corrida3 {
     font-size: 50px;
     background: transparent;
-    margin-top: -270px;
+    margin-top: -470px;
     margin-left: 100px;
-    color: var( --corVerm3);
+    color: var( --corVerm);
 }
 
 .frase__efeito--corrida4 {
@@ -58,5 +58,5 @@ img {
     background: transparent;
     margin-top: -470px;
     margin-left: 45px;
-    color: var( --corVerm3);
+    color: var( --corVerm);
 }
