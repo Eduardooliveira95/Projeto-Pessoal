@@ -109,16 +109,16 @@
     <header class="cabecalho">
         <ul class="cabecalho__links">
             <img src="./assets/imgs/logo__kart4.svg" alt="" class="cabecalho__logo">
-            <li class="cabecalho__letras"><a href="#">Início
+            <!-- <li class="cabecalho__letras"><a href="#">Início
                 <section class="barra__cabecalho"></section></a>
-            </li>
+            </li> -->
             <li class="cabecalho__letras"><a href="#meioTitulo">História
                 <section class="barra__cabecalho"></section></a>
             </li>
-            <li class="cabecalho__letras"><a href="#cadastro">Cadastro | Login
+            <li class="cabecalho__letras"><a href="#cadastro">Cadastro
                 <section class="barra__cabecalho"></section></a>
             </li>
-            <li class="cabecalho__letras"><a href="#">Votação
+            <li class="cabecalho__letras"><a href="#votacao">Votação
                 <section class="barra__cabecalho"></section></a>
             </li>
         </ul>
@@ -177,17 +177,18 @@
                     <button onclick="voltar()" class="botao__login--meio" id="botao__voltar">Voltar</button>
                 </section>
                 <section class="meio__cadastro--input" id="cadastro__meioo" style="display: none;">
+                    <p class="titulo__cadastro">Fique por dentro das novidades! </p>
                     <p class="titulo__input--meio">Nome:</p>
                     <input class="inputs__cadastro--meio" type="text" id="nome_input">
                     <p  class="titulo__input--meio">Email:</p>
                     <input class="inputs__cadastro--meio" type="text" id="email_input">
                     <p  class="titulo__input--meio">Senha:</p>
                     <input class="inputs__cadastro--meio" type="text" id="senha_input">
-                    <p  class="titulo__input--meio">Pista:</p>
+                    <!-- <p  class="titulo__input--meio">Pista:</p> -->
                     <!-- <input class="inputs__cadastro--meio" type="text" id="pista_input"> -->
-                    <p  class="titulo__input--meio">Motor:</p>
+                    <!-- <p  class="titulo__input--meio">Motor:</p> -->
                     <!-- <input class="inputs__cadastro--meio" type="text" id="motor_input"> -->
-                    <p  class="titulo__input--meio">Chassi:</p>
+                    <!-- <p  class="titulo__input--meio">Chassi:</p> -->
                     <!-- <input class="inputs__cadastro--meio" type="text" id="chassi_input"> -->
                     <button class="botao__cadastro--meio" onclick="cadastrar()">Cadastrar</button>
                     <button onclick="voltar()" class="botao__cadastro--meio">Voltar</button>
@@ -202,41 +203,75 @@
                 </section>
             </section>
         </section>
-        <section class="resultado">
+        <section class="resultado" id="votacao">
             <p class="titulo__resultado">Resultado da Pesquisa</p>
             <section class="meio__resultado">
 
                 <p class="subTitulo__resultado">Qual Chassi você mais gosta ?</p>
                 <section class="sec__chassi">
-                    <img src="./assets/imgs/crg.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
-                    <img src="./assets/imgs/tonyKart.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
-                    <img src="./assets/imgs/techspeed.jpg.opdownload" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
+
+                    <section class="div__check">
+                        <label for="ipt_crg"><img src="./assets/imgs/crg.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_crg">
+                    </section>
+                    
+                    <section class="div__check">
+                        <label for="ipt_tonyKart"><img src="./assets/imgs/tonyKart.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_tonyKart">
+                    </section>
+                    
+                    <section class="div__check">
+                        <label for="ipt_techSpeed"><img src="./assets/imgs/techspeed.jpg.opdownload" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_techSpeed">
+                    </section>
+
                 </section>
 
-                <p class="subTitulo__resultado">Qual motor você mais gosta ?</p>
-                <section class="sec__motor">
-                    <img src="./assets/imgs/iame.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
-                    <img src="./assets/imgs/tmKz10.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
-                    <img src="./assets/imgs/rotaxKart.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
+                    <p class="subTitulo__resultado">Qual motor você mais gosta ?</p>
+                    <section class="sec__motor">
+
+                    <section class="div__check">
+                        <label for="ipt_iame"><img src="./assets/imgs/iame.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_iame">
+                    </section>
+                    
+                    <section class="div__check">
+                        <label for="ipt_tmKz10"><img src="./assets/imgs/tmKz10.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_tmKz10">
+                    </section>
+
+
+                    <section class="div__check">
+                        <label for="ipt_rotax"><img src="./assets/imgs/rotaxKart.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_rotax">
+                    </section>
+
                 </section>
 
                 <p class="subTitulo__resultado">Qual destas pistas você mais gosta ?</p>
                 <section class="sec__pista">
-                    <img src="./assets/imgs/aldeiaDaSerra.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
-                    <img src="./assets/imgs/interlagos.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
-                    <img src="./assets/imgs/granjaViana.jpg" alt="" class="img__resultado">
-                    <input type="checkbox" name="" id="">
+
+
+                    <section class="div__check">
+                        <label for="ipt_Aldeia"><img src="./assets/imgs/aldeiaDaSerra.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_Aldeia">
+                    </section>
+                    
+                    <section class="div__check">
+                        <label for="ipt_Interlagos"><img src="./assets/imgs/interlagos.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_Interlagos">
+                    </section>
+                    
+                    <section class="div__check">
+                        <label for="ipt_Granja"><img src="./assets/imgs/granjaViana.jpg" alt="" class="img__resultado"></label>
+                        <input type="checkbox" id="ipt_Granja">
+                    </section>
+                
                 </section>
 
-               
+                <button onclick="func_confirmarVoto()">Confirmar voto</button>
+                <button onclick="func_mostrarVotos()">Mostrar votos</button>
+                <span id="mensagem"></span>
             </section>
         </section>
     </main>
@@ -251,6 +286,74 @@
 
 
 </html> 
+
+
+<script>
+
+    var vt_votos = []
+    var vt_chassiCRG = []
+    var vt_chassiTonyKart = []
+    var vt_chassiTechSpeed = []
+    var vt_motorIame = []
+    var vt_motorTMKZ10 = []
+    var vt_motorRotax = []
+    var vt_pistaAldeia = []
+    var vt_pistaInterlagos = []
+    var vt_pistaGranja = []
+
+    function func_confirmarVoto() {
+
+        vt_votos.push(1)
+
+        if (ipt_crg.checked === true) {
+            vt_chassiCRG.push(1)
+        }
+        if (ipt_tonyKart.checked === true) {
+            vt_chassiTonyKart.push(1)
+        }
+        if (ipt_techSpeed.checked === true) {
+            vt_chassiTechSpeed.push(1)
+        }
+        if (ipt_iame.checked === true) {
+            vt_motorIame.push(1)
+        }
+        if (ipt_tmKz10.checked === true) {
+            vt_motorTMKZ10.push(1)   
+        }
+        if (ipt_rotax.checked === true) {
+            vt_motorRotax.push(1)
+        }
+        if (ipt_Aldeia.checked === true) {
+            vt_pistaAldeia.push(1)
+        }
+        if (ipt_Interlagos.checked === true) {
+            vt_pistaInterlagos.push(1)
+        }
+        if (ipt_Granja.checked === true) {
+            vt_pistaGranja.push(1)
+        }
+    }
+
+    function func_mostrarVotos() {
+        mensagem.innerHTML = (
+            `Quantidade de votos: ${vt_votos.length} <br>
+        Quantidade que gostam de Chassi CRG: ${vt_chassiCRG.length} <br>
+        Quantidade que gostam de Chassi TonyKart: ${vt_chassiTonyKart.length} <br>
+        Quantidade que gostam de Chassi TechSpeed: ${vt_chassiTechSpeed.length} <br>
+        Quantidade que gostam do Motor Iame: ${vt_motorIame.length} <br>
+        Quantidade que gostam do Motor TmKz10: ${vt_motorTMKZ10.length} <br>
+        Quantidade que gostam do Motor Rotax: ${vt_motorRotax.length} <br>
+        Quantidade que gostam da Pista Aldeia: ${vt_pistaAldeia.length}  <br>
+        Quantidade que gostam da Pista Interlagos: ${vt_pistaInterlagos.length}  <br>
+        Quantidade que gostam da Pista Granja: ${vt_pistaGranja.length}  <br>
+        `)
+    }
+</script>
+
+
+
+
+
 
 <script>
     function cadastrar() {
