@@ -45,7 +45,7 @@ select * from preferencia;
 select * from conexao;
 
 select usuario.*, preferencia.motor,conexao.* 
-	from usuario 
+	from usuario
 		join conexao 
 			on usuario.idUsuario = conexao.fkUsuario
 		join preferencia
